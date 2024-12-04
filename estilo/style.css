@@ -8,17 +8,23 @@
 } 
 
 /*configurações do:*/
-html, body {
-    width: 100vw;
+html, body { 
     height: 100vh;
-    background-color: aqua;
+    width: 100vw;
+    background-color:black;
+}
+
+/*configuração apenas para o body*/
+body {
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover; /*cobrir a tela inteira*/
+    background-attachment: fixed; /*sem rolagem*/
 }
 
 /*configurações do:*/
 main {
     position: relative;
     height: 100vh;
-    background-color: black;
 }
 
 /*configuraçõe do:*/
@@ -26,9 +32,8 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
-
-    width: 500px;
-    height: 500px;
-    background-color: blue;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background: url('../imagens/frame-iphone.png')no-repeat;
 }
